@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd3ae6d1-66c5-41d4-8f10-7c74b98794c5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ProtoTest/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtoTest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtoTest/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/java/JAVA2Bytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PlayerModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -336,7 +327,7 @@
       <updated>1537198794368</updated>
       <workItem from="1537198795670" duration="285000" />
       <workItem from="1537199094957" duration="2762000" />
-      <workItem from="1539705819014" duration="4962000" />
+      <workItem from="1539705819014" duration="5064000" />
     </task>
     <task id="LOCAL-00001" summary="添加readme.md">
       <created>1539706428280</created>
@@ -352,11 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539708067859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="谷歌protobuf协议序列化和反序列化对象的方式demo提交">
+      <created>1539710844862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539710844862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8009000" />
+    <option name="totallyTimeSpent" value="8111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="848" extended-state="0" />
@@ -369,12 +367,12 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.3299866" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.38255978" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32630098" />
       <window_info anchor="bottom" id="Run" order="10" />
       <window_info anchor="bottom" id="Sequence" order="7" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49899396" visible="true" weight="0.25635877" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49899396" visible="true" weight="0.25635877" />
       <window_info anchor="bottom" id="Run with VisualVM" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Database" order="1" />
@@ -427,7 +425,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加readme.md" />
     <MESSAGE value="add  annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add  annotation" />
+    <MESSAGE value="谷歌protobuf协议序列化和反序列化对象的方式demo提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="谷歌protobuf协议序列化和反序列化对象的方式demo提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,7 +731,7 @@
     <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>

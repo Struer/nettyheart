@@ -6,7 +6,7 @@ import com.proto.PlayerModule.PBPlayer.Builder;
 /**
  * protobuf学习
  * @author -琴兽-
- * protobuf序列化和反序列化对象的方式
+ * protobuf序列化和反序列化对象的方式：序列化的字节比JAVA短
  */
 public class PB2Bytes {
 
