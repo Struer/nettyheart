@@ -9,6 +9,13 @@ import org.jboss.netty.channel.SimpleChannelHandler;
 import org.jboss.netty.handler.timeout.IdleState;
 import org.jboss.netty.handler.timeout.IdleStateEvent;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ *  handleUpstream方法在SimpleChannelHandler中有
+ */
+// public class HelloHandler extends IdleStateAwareChannelHandler implements ChannelHandler {
 public class HelloHandler extends SimpleChannelHandler {
 
 	@Override
@@ -35,5 +42,15 @@ public class HelloHandler extends SimpleChannelHandler {
 			super.handleUpstream(ctx, e);
 		}
 	}
+
+	// IdleStateAwareChannelHandler中channelIdle方法
+//	@Override
+//	public void channelIdle(ChannelHandlerContext ctx, IdleStateEvent e) throws Exception {
+//
+//		SimpleDateFormat format = new SimpleDateFormat("ss");
+//		System.out.println(e.getState() + format.format(new Date()));
+//
+//		super.channelIdle(ctx, e);
+//	}
 
 }

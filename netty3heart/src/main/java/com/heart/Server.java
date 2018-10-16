@@ -40,11 +40,12 @@ public class Server {
 			public ChannelPipeline getPipeline() throws Exception {
 
 				ChannelPipeline pipeline = Channels.pipeline();
+				// 5 5 10 读超时时间 写超时时间 读写超时时间
 				pipeline.addLast("idle", new IdleStateHandler(hashedWheelTimer, 5, 5, 10));
 				pipeline.addLast("decoder", new StringDecoder());
 				pipeline.addLast("encoder", new StringEncoder());
 				pipeline.addLast("helloHandler", new HelloHandler());
-//				pipeline.addLast("hiHandler", new HiHandler());
+//				pipeline.addLast("hiHandler", new HiHandler());  // 优化后使用HelloHandler，该类保留作参考   handleUpstream方法在SimpleChannelHandler中有
 				return pipeline;
 			}
 		});
