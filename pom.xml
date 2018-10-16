@@ -11,6 +11,7 @@
     <modules>
         <module>netty3heart</module>
         <module>netty5heart</module>
+        <module>ProtoTest</module>
     </modules>
 
 

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="netty3heart" />
         <module name="netty5heart" />
+        <module name="ProtoTest" />
       </profile>
     </annotationProcessing>
   </component>
