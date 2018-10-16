@@ -12,6 +12,7 @@ public class PB2Bytes {
 
 	public static void main(String[] args) throws Exception {
 		byte[] bytes = toBytes();
+		toBytes();
 		toPlayer(bytes);
 
 	}
