@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd3ae6d1-66c5-41d4-8f10-7c74b98794c5" name="Default" comment="" />
+    <list default="true" id="bd3ae6d1-66c5-41d4-8f10-7c74b98794c5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/BufferFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Serial2Bytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/src/main/java/com/cn/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/src/main/java/com/cn/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/src/main/java/com/cn/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/src/main/java/com/cn/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/src/main/java/com/cn/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/src/main/java/com/cn/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/src/main/java/com/cn/util/BufferFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial/src/main/java/com/cn/util/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtoTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty3heart/target/" />
     <ignored path="$PROJECT_DIR$/netty5heart/target/" />
     <ignored path="$PROJECT_DIR$/ProtoTest/target/" />
+    <ignored path="$PROJECT_DIR$/Serial/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,53 +36,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/java/Player.java">
+      <file leaf-file-name="Serial2Bytes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Serial2Bytes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-307">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="e#508#517#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA2Bytes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/java/JAVA2Bytes.java">
+      <file leaf-file-name="Serializer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Serializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PB2Bytes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProtoTest/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="286">
-                <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="419">
+              <caret line="300" column="5" lean-forward="true" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>handleUpstream</find>
+      <find>write</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,12 +82,21 @@
         <option value="$PROJECT_DIR$/netty3heart/src/main/java/com/heart/Server.java" />
         <option value="$PROJECT_DIR$/netty3heart/src/main/java/com/heart/HiHandler.java" />
         <option value="$PROJECT_DIR$/netty3heart/src/main/java/com/heart/HelloHandler.java" />
-        <option value="$PROJECT_DIR$/ProtoTest/pom.xml" />
         <option value="$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PlayerModule.java" />
         <option value="$PROJECT_DIR$/ProtoTest/src/main/java/com/java/Player.java" />
         <option value="$PROJECT_DIR$/ProtoTest/src/main/java/com/java/JAVA2Bytes.java" />
         <option value="$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java" />
         <option value="$PROJECT_DIR$/ProtoTest/readme.md" />
+        <option value="$PROJECT_DIR$/Serial/src/main/java/com/cn/Test1.java" />
+        <option value="$PROJECT_DIR$/Serial/pom.xml" />
+        <option value="$PROJECT_DIR$/Serial/src/main/java/com/cn/Test2.java" />
+        <option value="$PROJECT_DIR$/Serial/src/main/java/com/cn/Test3.java" />
+        <option value="$PROJECT_DIR$/Serial/src/main/java/com/cn/Player.java" />
+        <option value="$PROJECT_DIR$/Serial/src/main/java/com/cn/core/Serializer.java" />
+        <option value="$PROJECT_DIR$/Serial/src/main/java/com/cn/util/Serializer.java" />
+        <option value="$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Player.java" />
+        <option value="$PROJECT_DIR$/ProtoTest/pom.xml" />
+        <option value="$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Serializer.java" />
       </list>
     </option>
   </component>
@@ -108,15 +121,25 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Serial" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Serial" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="675" />
+    <option name="y" value="82" />
+    <option name="width" value="1160" />
+    <option name="height" value="849" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,6 +147,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,6 +159,16 @@
             <path>
               <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
+              <item name="netty3heart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
+              <item name="netty5heart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
               <item name="ProtoTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -174,17 +209,63 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="serial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
+              <item name="Serial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
+              <item name="Serial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
+              <item name="Serial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
+              <item name="Serial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
-              <item name="ProtoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Serial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
+              <item name="Serial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyheart" type="462c0819:PsiDirectoryNode" />
+              <item name="Serial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettyheart" type="b2602c69:ProjectViewProjectNode" />
@@ -194,8 +275,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,11 +293,11 @@
       <recent name="com.heart" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\oprojects\nettyheart\ProtoTest\src\main\java\com" />
+      <recent name="E:\oprojects\nettyheart\Serial\src\main\java\com\cn\core" />
+      <recent name="E:\oprojects\nettyheart\Serial\src\main\java\com\cn" />
+      <recent name="E:\oprojects\nettyheart\Serial" />
       <recent name="E:\oprojects\nettyheart" />
-      <recent name="E:\oprojects\nettyheart\ProtoTest" />
-      <recent name="E:\oprojects\nettyheart\ProtoTest\src\main\java\com\proto" />
-      <recent name="E:\oprojects\nettyheart\ProtoTest\src\main\java\com\java" />
-      <recent name="E:\oprojects\nettyheart\netty5heart" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PB2Bytes">
+  <component name="RunManager" selected="Application.Test4">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -266,6 +345,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.heart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cn.Test1" />
+      <module name="Serial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cn.Test4" />
+      <module name="Serial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,9 +429,13 @@
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Server (1)" />
       <item itemvalue="Application.PB2Bytes" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.PB2Bytes" />
         <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.Server" />
@@ -350,6 +455,8 @@
       <workItem from="1537198795670" duration="285000" />
       <workItem from="1537199094957" duration="2762000" />
       <workItem from="1539705819014" duration="5323000" />
+      <workItem from="1539758225492" duration="694000" />
+      <workItem from="1539878486401" duration="4091000" />
     </task>
     <task id="LOCAL-00001" summary="添加readme.md">
       <created>1539706428280</created>
@@ -393,33 +500,41 @@
       <option name="project" value="LOCAL" />
       <updated>1539711110023</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1539758267736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539758267736</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8370000" />
+    <option name="totallyTimeSpent" value="13155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="848" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32911393" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32770744" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3299866" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.21581769" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32630098" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.47689465" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.31082982" />
       <window_info anchor="bottom" id="Sequence" order="7" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49899396" visible="true" weight="0.25635877" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.4978903" visible="true" weight="0.22855228" />
       <window_info anchor="bottom" id="Run with VisualVM" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.24942529" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info id="Learn" order="0" />
-      <window_info id="Structure" order="5" sideWeight="0.501006" side_tool="true" weight="0.25670242" />
+      <window_info id="Structure" order="5" sideWeight="0.5021097" side_tool="true" weight="0.15348525" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -469,9 +584,9 @@
     <MESSAGE value="add  annotation" />
     <MESSAGE value="谷歌protobuf协议序列化和反序列化对象的方式demo提交" />
     <MESSAGE value="谷歌protobuf协议序列化和反序列化对象的方式--优点，字节小于JAVA" />
-    <MESSAGE value="commit" />
     <MESSAGE value="谷歌protobuf协议序列化和反序列化对象的方式字节小于JAVA原因" />
-    <option name="LAST_COMMIT_MESSAGE" value="谷歌protobuf协议序列化和反序列化对象的方式字节小于JAVA原因" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -479,60 +594,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/netty3heart/src/main/java/com/heart/HelloHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1150#1322#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty3heart/src/main/java/com/heart/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar!/org/jboss/netty/util/HashedWheelTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-          <folding>
-            <element signature="e#4950#4951#0" expanded="true" />
-            <element signature="e#5004#5005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty5heart/src/main/java/com/heart/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#1134#1135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/ChannelFutureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar!/org/jboss/netty/handler/timeout/IdleState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar!/org/jboss/netty/util/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -544,15 +605,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
           <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-          <folding>
-            <element signature="e#4950#4951#0" expanded="true" />
-            <element signature="e#5004#5005#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty3heart/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/netty5heart/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -617,11 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1150#1322#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="17" column="65" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,17 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
-          <folding>
-            <element signature="e#1134#1135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProtoTest/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -729,20 +764,10 @@
         <state relative-caret-position="-995" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
+        <state relative-caret-position="176">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="e#508#517#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,9 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6467">
           <caret line="341" column="11" selection-start-line="341" selection-start-column="11" selection-end-line="341" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,20 +785,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProtoTest/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="286">
+          <first_editor relative-caret-position="289">
             <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/proto/PB2Bytes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/JDK/jdk1.7.0_51/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="121" column="14" lean-forward="true" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk1.7.0_51/src.zip!/java/io/ByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2264">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk1.7.0_51/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/src/main/java/com/cn/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty3heart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" selection-start-line="24" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://D:/JDK/jdk1.7.0_51/src.zip!/java/nio/ByteOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+          <folding>
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar!/org/jboss/netty/buffer/ChannelBuffers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
+          <folding>
+            <element signature="e#6454#6455#0" expanded="true" />
+            <element signature="e#6507#6508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/src/main/java/com/cn/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/src/main/java/com/cn/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/src/main/java/com/cn/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/src/main/java/com/cn/util/BufferFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar!/org/jboss/netty/buffer/ChannelBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="1159" column="9" selection-start-line="1159" selection-start-column="9" selection-end-line="1159" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/src/main/java/com/cn/util/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/src/main/java/com/cn/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+          <folding>
+            <element signature="e#234#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial/src/main/java/com/cn/Test4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="e#415#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProtoTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/BufferFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Serial2Bytes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProtoTest/src/main/java/com/serial/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="300" column="5" lean-forward="true" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -837,6 +1057,7 @@
             <option name="proportions">
               <list>
                 <option value="0.29871324" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

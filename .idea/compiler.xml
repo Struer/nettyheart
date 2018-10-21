@@ -9,6 +9,7 @@
         <module name="netty3heart" />
         <module name="netty5heart" />
         <module name="ProtoTest" />
+        <module name="Serial" />
       </profile>
     </annotationProcessing>
   </component>
