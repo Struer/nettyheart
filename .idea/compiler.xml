@@ -12,5 +12,8 @@
         <module name="Serial" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
